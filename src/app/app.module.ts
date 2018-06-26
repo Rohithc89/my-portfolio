@@ -7,6 +7,7 @@ import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { AboutComponent } from './about/about.component';
 import { TextContentComponent } from './text-content/text-content.component';
 import { WorkExpComponent } from './work-exp/work-exp.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WorkExpComponent } from './work-exp/work-exp.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   exports: [],
   providers: [],
