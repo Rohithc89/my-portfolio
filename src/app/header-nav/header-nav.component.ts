@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-header-nav',
+  selector: 'header-nav',
   templateUrl: './header-nav.component.html',
   styleUrls: ['./header-nav.component.css']
 })
